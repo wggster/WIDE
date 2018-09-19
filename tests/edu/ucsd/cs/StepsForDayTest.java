@@ -43,7 +43,7 @@ class StepsForDayTest {
         assertEquals(steps, 0);
 
         sfd.inputSteps(2000);
-        steps = sfd.get();
+        steps = sfd.get();  // WGG -forgot this line the first time
         assertEquals(steps, 2000);
     }
 
